@@ -1,0 +1,1286 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0c">
+
+  <title>Vitrine Silenciosa | TikTok Shop sem aparecer</title>
+  <meta name="description" content="Ebook prático para criar uma vitrine de produtos no TikTok Shop com imagens e carrosséis, sem mostrar o rosto, fazer lives ou depender de vídeos tradicionais.">
+  <meta name="author" content="Alan Francis">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vitrine Silenciosa | TikTok Shop sem aparecer">
+  <meta property="og:description" content="Um método visual, prático e organizado para divulgar produtos no TikTok Shop sem transformar sua imagem no centro do perfil.">
+  <meta property="og:image" content="assets/vitrine-silenciosa.jpg">
+  <meta property="og:locale" content="pt_BR">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vitrine Silenciosa">
+  <meta name="twitter:description" content="TikTok Shop sem aparecer, sem lives e com foco em imagens e carrosséis.">
+  <meta name="twitter:image" content="assets/vitrine-silenciosa.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "Vitrine Silenciosa — TikTok Shop sem aparecer",
+    "author": {
+      "@type": "Person",
+      "name": "Alan Francis"
+    },
+    "bookFormat": "https://schema.org/EBook",
+    "inLanguage": "pt-BR",
+    "numberOfPages": 81,
+    "description": "Ebook prático para criar uma vitrine de produtos no TikTok Shop com imagens e carrosséis, sem mostrar o rosto, fazer lives ou depender de vídeos tradicionais.",
+    "image": "assets/vitrine-silenciosa.jpg",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "BRL",
+      "price": "37.90",
+      "availability": "https://schema.org/InStock",
+      "url": "https://pay.kiwify.com.br/inZlpZk"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #09090b;
+      --bg-soft: #101014;
+      --surface: rgba(255,255,255,.055);
+      --surface-strong: #17171d;
+      --line: rgba(255,255,255,.10);
+      --text: #f7f7fa;
+      --muted: #a7a7b2;
+      --pink: #ec3f92;
+      --pink-2: #ff5bac;
+      --cyan: #20cfe3;
+      --cyan-2: #72e9f5;
+      --green: #65d99d;
+      --warning: #ffc65b;
+      --shadow: 0 24px 80px rgba(0,0,0,.42);
+      --radius: 24px;
+      --container: 1160px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 92px;
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      background:
+        radial-gradient(circle at 8% 9%, rgba(236,63,146,.13), transparent 27rem),
+        radial-gradient(circle at 92% 7%, rgba(32,207,227,.12), transparent 28rem),
+        var(--bg);
+      color: var(--text);
+      font-family: "Manrope", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    img { max-width: 100%; display: block; }
+
+    a { color: inherit; }
+
+    button, a { -webkit-tap-highlight-color: transparent; }
+
+    .skip-link {
+      position: fixed;
+      top: -100px;
+      left: 12px;
+      z-index: 9999;
+      background: #fff;
+      color: #000;
+      padding: 10px 14px;
+      border-radius: 8px;
+      transition: top .2s ease;
+    }
+
+    .skip-link:focus { top: 12px; }
+
+    .container {
+      width: min(var(--container), calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .gradient-text {
+      background: linear-gradient(90deg, var(--pink), #a980f4 48%, var(--cyan));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .eyebrow {
+      margin: 0 0 14px;
+      color: var(--cyan-2);
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+      font-family: "Space Grotesk", "Manrope", sans-serif;
+      letter-spacing: -.045em;
+      line-height: 1.08;
+    }
+
+    h1 {
+      margin-bottom: 22px;
+      font-size: clamp(3rem, 7vw, 6rem);
+    }
+
+    h2 {
+      margin-bottom: 18px;
+      font-size: clamp(2.15rem, 4.5vw, 3.8rem);
+    }
+
+    h3 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+    }
+
+    p { margin: 0 0 18px; color: var(--muted); }
+
+    .lead {
+      max-width: 690px;
+      color: #c9c9d1;
+      font-size: clamp(1.05rem, 1.6vw, 1.25rem);
+    }
+
+    .section {
+      position: relative;
+      padding: 104px 0;
+    }
+
+    .section--soft {
+      background:
+        linear-gradient(180deg, transparent, rgba(255,255,255,.018) 16%, rgba(255,255,255,.025) 84%, transparent);
+    }
+
+    .section-head {
+      max-width: 760px;
+      margin: 0 auto 50px;
+      text-align: center;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid rgba(255,255,255,.07);
+      background: rgba(9,9,11,.78);
+      backdrop-filter: blur(18px);
+    }
+
+    .topbar-inner {
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      text-decoration: none;
+      font-family: "Space Grotesk", sans-serif;
+      font-weight: 700;
+      letter-spacing: -.025em;
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      background:
+        linear-gradient(135deg, var(--pink), var(--cyan));
+      box-shadow: 0 0 30px rgba(236,63,146,.25);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .brand-mark::after {
+      content: "";
+      position: absolute;
+      inset: 8px;
+      border: 2px solid rgba(0,0,0,.72);
+      border-radius: 6px;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .nav a:not(.btn) {
+      color: #c5c5ce;
+      text-decoration: none;
+      font-size: .92rem;
+      font-weight: 600;
+    }
+
+    .nav a:not(.btn):hover { color: #fff; }
+
+    .btn {
+      display: inline-flex;
+      min-height: 54px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 0 24px;
+      border: 1px solid transparent;
+      border-radius: 14px;
+      background: linear-gradient(135deg, var(--pink), #d9329b);
+      color: #fff;
+      font-weight: 800;
+      text-decoration: none;
+      text-align: center;
+      box-shadow: 0 12px 34px rgba(236,63,146,.25);
+      transition: transform .2s ease, box-shadow .2s ease, filter .2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.08);
+      box-shadow: 0 18px 42px rgba(236,63,146,.34);
+    }
+
+    .btn:active { transform: translateY(0) scale(.99); }
+
+    .btn--small {
+      min-height: 44px;
+      padding: 0 18px;
+      border-radius: 12px;
+      font-size: .9rem;
+    }
+
+    .btn--secondary {
+      border-color: var(--line);
+      background: rgba(255,255,255,.06);
+      box-shadow: none;
+    }
+
+    .hero {
+      position: relative;
+      min-height: calc(100dvh - 72px);
+      display: grid;
+      align-items: center;
+      padding: 82px 0 94px;
+      overflow: hidden;
+    }
+
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 420px;
+      height: 420px;
+      border-radius: 50%;
+      filter: blur(110px);
+      opacity: .32;
+      pointer-events: none;
+    }
+
+    .hero::before {
+      left: -180px;
+      top: 7%;
+      background: var(--pink);
+    }
+
+    .hero::after {
+      right: -190px;
+      bottom: 2%;
+      background: var(--cyan);
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(390px, .95fr);
+      gap: 70px;
+      align-items: center;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 22px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,.045);
+      color: #d7d7df;
+      font-size: .8rem;
+      font-weight: 700;
+    }
+
+    .badge-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--cyan);
+      box-shadow: 0 0 14px var(--cyan);
+    }
+
+    .hero-points {
+      display: grid;
+      gap: 11px;
+      margin: 28px 0 30px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .hero-points li {
+      display: flex;
+      align-items: flex-start;
+      gap: 11px;
+      color: #d7d7df;
+      font-weight: 600;
+    }
+
+    .check {
+      width: 23px;
+      height: 23px;
+      flex: 0 0 23px;
+      display: grid;
+      place-items: center;
+      margin-top: 1px;
+      border-radius: 50%;
+      background: rgba(101,217,157,.13);
+      color: var(--green);
+      font-size: .8rem;
+      font-weight: 900;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .hero-note {
+      margin: 15px 0 0;
+      color: #94949e;
+      font-size: .84rem;
+    }
+
+    .price-card {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .price-label {
+      color: #9d9da7;
+      font-size: .84rem;
+    }
+
+    .price {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -.04em;
+    }
+
+    .cover-stage {
+      position: relative;
+      isolation: isolate;
+      perspective: 1100px;
+    }
+
+    .cover-stage::before {
+      content: "";
+      position: absolute;
+      inset: 12% 6% 4%;
+      z-index: -1;
+      border-radius: 40px;
+      background:
+        linear-gradient(135deg, rgba(236,63,146,.28), rgba(32,207,227,.18));
+      filter: blur(55px);
+      transform: translateY(24px);
+    }
+
+    .cover-shell {
+      max-width: 535px;
+      margin-inline: auto;
+      padding: 17px;
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 32px;
+      background: linear-gradient(145deg, rgba(255,255,255,.08), rgba(255,255,255,.025));
+      box-shadow: var(--shadow);
+      transform: rotateY(-7deg) rotateX(2deg);
+      transition: transform .45s cubic-bezier(.2,.8,.2,1);
+    }
+
+    .cover-shell:hover { transform: rotateY(0) rotateX(0) translateY(-4px); }
+
+    .cover-shell img {
+      width: 100%;
+      border-radius: 20px;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
+
+    .micro-proof {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .micro-proof div {
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,.04);
+      text-align: center;
+    }
+
+    .micro-proof strong {
+      display: block;
+      margin-bottom: 3px;
+      color: #fff;
+      font-family: "Space Grotesk", sans-serif;
+    }
+
+    .micro-proof span { color: #94949e; font-size: .76rem; }
+
+    .problem-grid,
+    .split-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 34px;
+      align-items: stretch;
+    }
+
+    .panel {
+      padding: 34px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: 0 20px 60px rgba(0,0,0,.15);
+    }
+
+    .panel--accent {
+      background:
+        radial-gradient(circle at 100% 0, rgba(32,207,227,.12), transparent 45%),
+        radial-gradient(circle at 0 100%, rgba(236,63,146,.10), transparent 42%),
+        var(--surface);
+    }
+
+    .quote {
+      margin: 0;
+      color: #f5f5f8;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: clamp(1.55rem, 3vw, 2.5rem);
+      font-weight: 600;
+      letter-spacing: -.04em;
+      line-height: 1.18;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 28px;
+    }
+
+    .stat {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255,255,255,.035);
+    }
+
+    .stat strong {
+      display: block;
+      margin-bottom: 5px;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 1.8rem;
+    }
+
+    .stat span { color: var(--muted); font-size: .86rem; }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      min-height: 225px;
+      padding: 27px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background:
+        linear-gradient(145deg, rgba(255,255,255,.055), rgba(255,255,255,.025));
+      transition: transform .25s ease, border-color .25s ease, background .25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(32,207,227,.28);
+      background:
+        linear-gradient(145deg, rgba(32,207,227,.075), rgba(236,63,146,.035));
+    }
+
+    .card-icon {
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 22px;
+      border: 1px solid rgba(32,207,227,.2);
+      border-radius: 13px;
+      background: rgba(32,207,227,.08);
+      color: var(--cyan-2);
+      font-size: 1.1rem;
+      font-weight: 800;
+    }
+
+    .card p { margin-bottom: 0; font-size: .94rem; }
+
+    .roadmap {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+      margin-top: 42px;
+    }
+
+    .roadmap-item {
+      position: relative;
+      padding: 24px 20px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255,255,255,.035);
+    }
+
+    .roadmap-item:not(:last-child)::after {
+      content: "→";
+      position: absolute;
+      right: -12px;
+      top: 50%;
+      z-index: 2;
+      width: 24px;
+      height: 24px;
+      display: grid;
+      place-items: center;
+      transform: translateY(-50%);
+      border-radius: 50%;
+      background: #151519;
+      color: var(--cyan);
+      font-weight: 800;
+    }
+
+    .roadmap-number {
+      margin-bottom: 12px;
+      color: var(--pink-2);
+      font-size: .8rem;
+      font-weight: 800;
+    }
+
+    .roadmap-item strong { display: block; margin-bottom: 5px; }
+    .roadmap-item span { color: var(--muted); font-size: .78rem; }
+
+    .feature-list {
+      display: grid;
+      gap: 15px;
+      margin: 22px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .feature-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      color: #d4d4dc;
+    }
+
+    .feature-list .check { margin-top: 2px; }
+
+    .compare {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .compare-box {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(255,255,255,.04);
+    }
+
+    .compare-box h3 { font-size: 1.45rem; }
+
+    .compare-box--yes {
+      border-color: rgba(101,217,157,.22);
+      background: rgba(101,217,157,.045);
+    }
+
+    .compare-box--no {
+      border-color: rgba(255,198,91,.18);
+      background: rgba(255,198,91,.035);
+    }
+
+    .author-box {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 28px;
+      align-items: center;
+      max-width: 860px;
+      margin-inline: auto;
+    }
+
+    .author-avatar {
+      width: 104px;
+      height: 104px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(255,255,255,.13);
+      border-radius: 28px;
+      background:
+        linear-gradient(135deg, rgba(236,63,146,.95), rgba(32,207,227,.88));
+      color: #09090b;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 2rem;
+      font-weight: 800;
+      box-shadow: 0 18px 50px rgba(236,63,146,.18);
+    }
+
+    .faq {
+      max-width: 880px;
+      margin-inline: auto;
+    }
+
+    details {
+      margin-bottom: 13px;
+      border: 1px solid var(--line);
+      border-radius: 17px;
+      background: rgba(255,255,255,.035);
+      overflow: hidden;
+    }
+
+    summary {
+      position: relative;
+      padding: 22px 56px 22px 22px;
+      cursor: pointer;
+      color: #f1f1f5;
+      font-weight: 700;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    summary::after {
+      content: "+";
+      position: absolute;
+      right: 22px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--cyan);
+      font-size: 1.35rem;
+    }
+
+    details[open] summary::after { content: "−"; }
+
+    details p {
+      padding: 0 22px 22px;
+      margin: 0;
+    }
+
+    .final {
+      padding: 112px 0;
+      text-align: center;
+    }
+
+    .final-card {
+      position: relative;
+      overflow: hidden;
+      padding: 70px 28px;
+      border: 1px solid rgba(255,255,255,.13);
+      border-radius: 32px;
+      background:
+        radial-gradient(circle at 10% 100%, rgba(236,63,146,.18), transparent 37%),
+        radial-gradient(circle at 90% 0, rgba(32,207,227,.16), transparent 38%),
+        #121217;
+      box-shadow: var(--shadow);
+    }
+
+    .final-card h2 { max-width: 800px; margin-inline: auto; }
+    .final-card p { max-width: 670px; margin-inline: auto; }
+    .final-card .price-card { margin-top: 12px; }
+
+    .security-line {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px 22px;
+      margin-top: 19px;
+      color: #93939d;
+      font-size: .82rem;
+    }
+
+    .disclaimer {
+      padding: 35px 0;
+      border-top: 1px solid rgba(255,255,255,.06);
+      border-bottom: 1px solid rgba(255,255,255,.06);
+      background: #070709;
+    }
+
+    .disclaimer p {
+      max-width: 920px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: .78rem;
+      line-height: 1.65;
+    }
+
+    footer {
+      padding: 32px 0 105px;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: .82rem;
+    }
+
+    .mobile-cta {
+      display: none;
+      position: fixed;
+      left: 12px;
+      right: 12px;
+      bottom: 12px;
+      z-index: 1200;
+      padding: 10px;
+      border: 1px solid rgba(255,255,255,.11);
+      border-radius: 18px;
+      background: rgba(14,14,18,.88);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 14px 45px rgba(0,0,0,.45);
+    }
+
+    .mobile-cta .btn { width: 100%; }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity .7s ease, transform .7s ease;
+    }
+
+    .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+      .reveal { opacity: 1; transform: none; }
+    }
+
+    @media (max-width: 980px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 52px;
+      }
+
+      .hero-copy { text-align: center; }
+      .hero-copy .lead { margin-inline: auto; }
+      .badge-row, .hero-actions { justify-content: center; }
+      .hero-points { max-width: 610px; margin-inline: auto; text-align: left; }
+      .hero-note { text-align: center; }
+      .cover-shell { max-width: 500px; transform: none; }
+
+      .cards { grid-template-columns: repeat(2, 1fr); }
+      .roadmap { grid-template-columns: repeat(2, 1fr); }
+      .roadmap-item:not(:last-child)::after { display: none; }
+      .stats { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 760px) {
+      .container { width: min(100% - 28px, var(--container)); }
+      .section { padding: 78px 0; }
+
+      .nav a:not(.btn) { display: none; }
+      .topbar .btn { display: none; }
+
+      .hero {
+        min-height: auto;
+        padding: 58px 0 78px;
+      }
+
+      h1 { font-size: clamp(2.8rem, 16vw, 4.3rem); }
+      h2 { font-size: clamp(2rem, 10vw, 3rem); }
+
+      .hero-grid { grid-template-columns: minmax(0,1fr); gap: 42px; }
+      .hero-actions { display: grid; }
+      .hero-actions .btn { width: 100%; }
+      .cover-stage { min-width: 0; }
+      .cover-shell { padding: 10px; border-radius: 22px; }
+      .cover-shell img { border-radius: 15px; }
+
+      .micro-proof { grid-template-columns: 1fr; }
+
+      .problem-grid,
+      .split-grid,
+      .compare {
+        grid-template-columns: 1fr;
+      }
+
+      .cards,
+      .roadmap {
+        grid-template-columns: 1fr;
+      }
+
+      .card { min-height: auto; }
+
+      .author-box {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .author-avatar { margin-inline: auto; }
+
+      .final-card { padding: 54px 20px; }
+      .mobile-cta { display: block; }
+    }
+
+    @media (max-width: 420px) {
+      .brand span:last-child { font-size: .9rem; }
+      .panel { padding: 26px 22px; }
+      .card { padding: 24px 22px; }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo-principal">Ir para o conteúdo</a>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#inicio" aria-label="Vitrine Silenciosa — início">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Vitrine Silenciosa</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#aprendizado">Conteúdo</a>
+        <a href="#para-quem">Para quem é</a>
+        <a href="#duvidas">Dúvidas</a>
+        <a class="btn btn--small" href="https://pay.kiwify.com.br/inZlpZk" target="_blank" rel="noopener noreferrer">
+          Acessar o ebook
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo-principal">
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="badge-row" aria-label="Características do produto">
+            <span class="badge"><span class="badge-dot"></span>Ebook prático</span>
+            <span class="badge">81 páginas</span>
+            <span class="badge">Método visual</span>
+          </div>
+
+          <p class="eyebrow">TikTok Shop sem aparecer</p>
+          <h1><span class="gradient-text">Vitrine Silenciosa</span></h1>
+
+          <p class="lead">
+            Aprenda a estruturar uma vitrine de produtos usando imagens, carrosséis,
+            personagens fictícios consistentes e campanhas visuais — sem transformar
+            o seu rosto no centro do perfil.
+          </p>
+
+          <ul class="hero-points">
+            <li><span class="check">✓</span><span>Sem precisar fazer lives ou gravar vídeos tradicionais.</span></li>
+            <li><span class="check">✓</span><span>Planejamento claro para pesquisa, criação, publicação e análise.</span></li>
+            <li><span class="check">✓</span><span>Checklists, estruturas, prompts e modelos para organizar sua produção.</span></li>
+          </ul>
+
+          <div class="price-card">
+            <span class="price-label">Acesso por</span>
+            <strong class="price">R$ 37,90</strong>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn" href="https://pay.kiwify.com.br/inZlpZk" target="_blank" rel="noopener noreferrer">
+              QUERO ACESSAR O EBOOK
+            </a>
+            <a class="btn btn--secondary" href="#aprendizado">Ver o conteúdo</a>
+          </div>
+
+          <p class="hero-note">Pagamento processado pela Kiwify. Acesso digital após a confirmação da compra.</p>
+        </div>
+
+        <div class="cover-stage reveal">
+          <div class="cover-shell">
+            <img
+              src="assets/vitrine-silenciosa.jpg"
+              alt="Capa do ebook Vitrine Silenciosa — TikTok Shop sem aparecer"
+              width="1254"
+              height="1254"
+              fetchpriority="high">
+          </div>
+
+          <div class="micro-proof" aria-label="Resumo do produto">
+            <div><strong>Prático</strong><span>Do planejamento à publicação</span></div>
+            <div><strong>Visual</strong><span>Foco em imagens e carrosséis</span></div>
+            <div><strong>Organizado</strong><span>Processos, checklists e rotina</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft">
+      <div class="container">
+        <div class="problem-grid">
+          <article class="panel panel--accent reveal">
+            <p class="eyebrow">Uma forma diferente de produzir</p>
+            <p class="quote">Você não precisa virar influenciador para começar a criar conteúdo de produtos.</p>
+          </article>
+
+          <article class="panel reveal">
+            <h2>Transforme produto em uma sequência visual clara.</h2>
+            <p>
+              O método organiza a produção em etapas: escolher o produto, definir a identidade,
+              planejar cenas, montar o carrossel, publicar e analisar. Em vez de improvisar,
+              você constrói uma campanha com lógica e consistência.
+            </p>
+
+            <div class="stats">
+              <div class="stat"><strong>81</strong><span>páginas organizadas</span></div>
+              <div class="stat"><strong>10</strong><span>etapas do método</span></div>
+              <div class="stat"><strong>0</strong><span>necessidade de aparecer</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="aprendizado">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Conteúdo do ebook</p>
+          <h2>O que você vai aprender</h2>
+          <p>Um caminho progressivo para sair da ideia solta e chegar a uma rotina visual organizada.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-icon">01</div>
+            <h3>Estrutura do perfil</h3>
+            <p>Como organizar uma presença comercial coerente e preparar a base da sua vitrine.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">02</div>
+            <h3>Pesquisa de produtos</h3>
+            <p>Critérios para selecionar produtos visuais, avaliar oportunidades e evitar escolhas frágeis.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">03</div>
+            <h3>Identidade consistente</h3>
+            <p>Personagem, referências, mãos, cenários e elementos fixos para manter continuidade visual.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">04</div>
+            <h3>Planejamento de cenas</h3>
+            <p>Ângulos, detalhes, POV, demonstração e composição para apresentar o produto com clareza.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">05</div>
+            <h3>Carrossel em três atos</h3>
+            <p>Gancho, demonstração e chamada para ação em uma sequência simples de acompanhar.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">06</div>
+            <h3>Textos e descrições</h3>
+            <p>Títulos, frases curtas, CTAs naturais e comunicação sem promessas enganosas.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">07</div>
+            <h3>Rotina de produção</h3>
+            <p>Pastas, nomes de arquivos, biblioteca de prompts e produção organizada em blocos.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">08</div>
+            <h3>Publicação e testes</h3>
+            <p>Ordem das imagens, vinculação do produto, testes por campanha e leitura dos resultados.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">09</div>
+            <h3>Boas práticas com IA</h3>
+            <p>Transparência, consistência, limites das imagens ilustrativas e comunicação responsável.</p>
+          </article>
+        </div>
+
+        <div class="roadmap reveal" aria-label="Etapas resumidas do método">
+          <div class="roadmap-item">
+            <div class="roadmap-number">ETAPA 1</div>
+            <strong>Pesquisar</strong>
+            <span>Produto e público</span>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-number">ETAPA 2</div>
+            <strong>Planejar</strong>
+            <span>Identidade e cenas</span>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-number">ETAPA 3</div>
+            <strong>Criar</strong>
+            <span>Imagens e textos</span>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-number">ETAPA 4</div>
+            <strong>Publicar</strong>
+            <span>Carrossel e produto</span>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-number">ETAPA 5</div>
+            <strong>Analisar</strong>
+            <span>Testes e ajustes</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft">
+      <div class="container split-grid">
+        <article class="panel panel--accent reveal">
+          <p class="eyebrow">O que está incluído</p>
+          <h2>Material para consultar durante a produção</h2>
+          <ul class="feature-list">
+            <li><span class="check">✓</span><span>Modelos de planejamento para personagens e cenários fictícios.</span></li>
+            <li><span class="check">✓</span><span>Estruturas de prompts e bibliotecas modulares.</span></li>
+            <li><span class="check">✓</span><span>Mapas de objeções, ganchos, CTAs e textos curtos.</span></li>
+            <li><span class="check">✓</span><span>Checklists de qualidade, publicação e conformidade.</span></li>
+            <li><span class="check">✓</span><span>Calendários de testes e organização de campanhas.</span></li>
+            <li><span class="check">✓</span><span>Plano operacional para transformar um produto em diferentes carrosséis.</span></li>
+          </ul>
+        </article>
+
+        <article class="panel reveal">
+          <p class="eyebrow">Foco do treinamento</p>
+          <h2>Imagens e carrosséis</h2>
+          <p>
+            O Vitrine Silenciosa foi criado para quem deseja trabalhar principalmente com
+            conteúdo visual estático. O material ensina planejamento, criação, organização,
+            publicação e otimização de campanhas com imagens.
+          </p>
+          <p>
+            <strong style="color:#fff">A criação de vídeos não faz parte deste treinamento.</strong>
+            Isso mantém o ebook direto, específico e fácil de consultar.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="para-quem">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Público do ebook</p>
+          <h2>Para quem é — e para quem não é</h2>
+        </div>
+
+        <div class="compare">
+          <article class="compare-box compare-box--yes reveal">
+            <h3>Este guia é para você que...</h3>
+            <ul class="feature-list">
+              <li><span class="check">✓</span><span>Está começando no TikTok Shop e precisa de um processo claro.</span></li>
+              <li><span class="check">✓</span><span>Prefere trabalhar nos bastidores sem expor a imagem pessoal.</span></li>
+              <li><span class="check">✓</span><span>Quer produzir carrosséis e campanhas visuais mais consistentes.</span></li>
+              <li><span class="check">✓</span><span>É afiliado, criador de conteúdo ou empreendedor digital.</span></li>
+              <li><span class="check">✓</span><span>Busca organização, modelos, checklists e rotina de testes.</span></li>
+            </ul>
+          </article>
+
+          <article class="compare-box compare-box--no reveal">
+            <h3>Este guia não é para quem...</h3>
+            <ul class="feature-list">
+              <li><span class="check" style="background:rgba(255,198,91,.12);color:var(--warning)">!</span><span>Procura promessa de vendas, alcance ou renda garantida.</span></li>
+              <li><span class="check" style="background:rgba(255,198,91,.12);color:var(--warning)">!</span><span>Quer um curso completo de edição ou criação de vídeos.</span></li>
+              <li><span class="check" style="background:rgba(255,198,91,.12);color:var(--warning)">!</span><span>Não pretende pesquisar produtos, testar campanhas ou revisar resultados.</span></li>
+              <li><span class="check" style="background:rgba(255,198,91,.12);color:var(--warning)">!</span><span>Busca atalhos que substituam planejamento e execução.</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft">
+      <div class="container">
+        <article class="panel author-box reveal">
+          <div class="author-avatar" aria-hidden="true">AF</div>
+          <div>
+            <p class="eyebrow">Sobre o autor</p>
+            <h2 style="margin-bottom:12px">Alan Francis</h2>
+            <p>
+              Criador de conteúdo digital e autor do Vitrine Silenciosa. Seu trabalho reúne
+              pesquisa, organização, produção visual e ferramentas de inteligência artificial
+              para transformar ideias em materiais práticos, claros e aplicáveis.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="duvidas">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Perguntas frequentes</p>
+          <h2>Tire suas dúvidas</h2>
+        </div>
+
+        <div class="faq">
+          <details class="reveal">
+            <summary>Preciso mostrar o rosto para aplicar o método?</summary>
+            <p>Não. A proposta do ebook é justamente estruturar conteúdo visual em que o produto, as cenas e a estratégia ocupam o centro da comunicação.</p>
+          </details>
+
+          <details class="reveal">
+            <summary>O treinamento ensina a criar vídeos?</summary>
+            <p>Não. O foco é em imagens, carrosséis, identidade visual, textos, organização, publicação e análise. Vídeos poderão ser abordados em um treinamento separado.</p>
+          </details>
+
+          <details class="reveal">
+            <summary>O ebook é indicado para iniciantes?</summary>
+            <p>Sim. O conteúdo começa pelos fundamentos e avança por etapas. Pessoas com experiência também podem utilizar os checklists, modelos e rotinas para organizar a produção.</p>
+          </details>
+
+          <details class="reveal">
+            <summary>Preciso usar inteligência artificial?</summary>
+            <p>O método apresenta possibilidades de uso de IA para imagens e planejamento, mas também ensina critérios de transparência, consistência e revisão. A aplicação depende das ferramentas escolhidas pelo leitor.</p>
+          </details>
+
+          <details class="reveal">
+            <summary>O ebook garante vendas?</summary>
+            <p>Não. O material é educacional. Resultados dependem da escolha dos produtos, execução, frequência de testes, qualidade das publicações e condições de cada conta.</p>
+          </details>
+
+          <details class="reveal">
+            <summary>Como recebo o ebook?</summary>
+            <p>A compra é processada pela Kiwify. Após a confirmação do pagamento, o acesso ao produto digital é disponibilizado conforme as instruções apresentadas pela plataforma.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="final" id="comprar">
+      <div class="container">
+        <div class="final-card reveal">
+          <p class="eyebrow">Comece com um processo claro</p>
+          <h2>Construa sua vitrine visual sem transformar sua imagem pessoal no produto.</h2>
+          <p>
+            Receba o ebook Vitrine Silenciosa e tenha um método completo para pesquisar,
+            planejar, criar, organizar, publicar e analisar campanhas com imagens e carrosséis.
+          </p>
+
+          <div class="price-card">
+            <span class="price-label">Acesso por</span>
+            <strong class="price">R$ 37,90</strong>
+          </div>
+
+          <div>
+            <a class="btn" href="https://pay.kiwify.com.br/inZlpZk" target="_blank" rel="noopener noreferrer">
+              QUERO ACESSAR O EBOOK
+            </a>
+          </div>
+
+          <div class="security-line">
+            <span>✓ Ebook digital</span>
+            <span>✓ Checkout da Kiwify</span>
+            <span>✓ Acesso após confirmação</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="disclaimer">
+      <div class="container">
+        <p>
+          <strong>Importante:</strong> este produto possui finalidade educacional. Os resultados
+          dependem da aplicação, da escolha dos produtos, da qualidade das publicações, da frequência
+          de testes e das condições de cada conta. Não existe garantia de vendas, alcance ou ganhos financeiros.
+          TikTok e TikTok Shop são marcas de seus respectivos proprietários e não possuem vínculo oficial com este ebook.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Vitrine Silenciosa — Alan Francis. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <div class="mobile-cta" aria-label="Comprar o ebook">
+    <a class="btn" href="https://pay.kiwify.com.br/inZlpZk" target="_blank" rel="noopener noreferrer">
+      ACESSAR POR R$ 37,90
+    </a>
+  </div>
+
+  <script>
+    (() => {
+      const items = document.querySelectorAll('.reveal');
+
+      if (!('IntersectionObserver' in window)) {
+        items.forEach(item => item.classList.add('is-visible'));
+        return;
+      }
+
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            obs.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+      items.forEach(item => observer.observe(item));
+    })();
+  </script>
+</body>
+</html>
