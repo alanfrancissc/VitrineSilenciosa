@@ -313,8 +313,8 @@
       position: relative;
       z-index: 1;
       display: grid;
-      grid-template-columns: minmax(0, 1.05fr) minmax(390px, .95fr);
-      gap: 70px;
+      grid-template-columns: minmax(0, 1.12fr) minmax(320px, .88fr);
+      gap: 56px;
       align-items: center;
     }
 
@@ -411,7 +411,8 @@
     .cover-stage {
       position: relative;
       isolation: isolate;
-      perspective: 1100px;
+      min-width: 0;
+      padding: 8px;
     }
 
     .cover-stage::before {
@@ -427,24 +428,30 @@
     }
 
     .cover-shell {
-      max-width: 535px;
+      width: min(100%, 470px);
+      max-width: 100%;
       margin-inline: auto;
-      padding: 17px;
+      padding: 14px;
       border: 1px solid rgba(255,255,255,.12);
-      border-radius: 32px;
+      border-radius: 30px;
       background: linear-gradient(145deg, rgba(255,255,255,.08), rgba(255,255,255,.025));
       box-shadow: var(--shadow);
-      transform: rotateY(-7deg) rotateX(2deg);
-      transition: transform .45s cubic-bezier(.2,.8,.2,1);
+      transform: none;
+      transition: transform .35s cubic-bezier(.2,.8,.2,1);
+      overflow: hidden;
     }
 
-    .cover-shell:hover { transform: rotateY(0) rotateX(0) translateY(-4px); }
+    .cover-shell:hover { transform: translateY(-4px) scale(1.01); }
 
     .cover-shell img {
+      display: block;
       width: 100%;
-      border-radius: 20px;
-      aspect-ratio: 1 / 1;
-      object-fit: cover;
+      height: auto;
+      max-width: 100%;
+      border-radius: 18px;
+      aspect-ratio: auto;
+      object-fit: contain;
+      object-position: center;
     }
 
     .micro-proof {
@@ -822,7 +829,7 @@
       .badge-row, .hero-actions { justify-content: center; }
       .hero-points { max-width: 610px; margin-inline: auto; text-align: left; }
       .hero-note { text-align: center; }
-      .cover-shell { max-width: 500px; transform: none; }
+      .cover-shell { width: min(100%, 470px); max-width: 100%; transform: none; }
 
       .cards { grid-template-columns: repeat(2, 1fr); }
       .roadmap { grid-template-columns: repeat(2, 1fr); }
